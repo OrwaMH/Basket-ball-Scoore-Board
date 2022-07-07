@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "digital";
+  src: url(fonts/CursedTimerUlil.ttf) format("truetype");
+}
+
+body {
+  background-image: url(images/BasketBall.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1b244a;
+  width: 575px;
+  height: 385px;
+  margin: 50px auto;
+  border: 10px solid rgb(5, 3, 18);
+  border-radius: 15px;
+}
+
+#home-section,
+#guest-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Verdana;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 35.89px;
+  text-align: Center;
+  color: #eeeeee;
+}
+
+#home-score,
+#guest-score {
+  font-family: "digital";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  margin: 10px auto;
+  width: 150px;
+  background: black;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  left: 337px;
+  top: 271px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background: transparent;
+  color: #9aabd8;
+  font-family: "digital";
+}
+
+.newGame-btn {
+  width: 100px;
+}
